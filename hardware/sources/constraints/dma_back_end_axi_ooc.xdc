@@ -1,0 +1,5 @@
+create_clock -period 3.5 [get_ports clk]
+create_clock -period 3.5 [get_ports m_aclk]
+create_clock -period 3.5 [get_ports c2s_aclk*]
+create_clock -period 3.5 [get_ports s2c_aclk*]
+create_clock -period 3.5 [get_ports t_aclk]
